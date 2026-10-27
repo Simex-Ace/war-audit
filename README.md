@@ -1,5 +1,8 @@
 # war-audit
 
+[![CI](https://github.com/Simex-Ace/war-audit/actions/workflows/ci.yml/badge.svg)](https://github.com/Simex-Ace/war-audit/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/war-audit)](https://www.npmjs.com/package/war-audit)
+
 扫描浏览器扩展 `manifest.json`，检测 `web_accessible_resources` 和 `externally_connectable` 的安全暴露风险。
 
 ## 为什么要做这个
