@@ -1,0 +1,35 @@
+{
+  "name": "war-audit",
+  "version": "1.0.0",
+  "description": "Scan a browser extension's manifest.json for web_accessible_resources and externally_connectable exposure risk",
+  "type": "module",
+  "bin": {
+    "war-audit": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "browser-extension",
+    "security",
+    "web-accessible-resources",
+    "externally-connectable",
+    "manifest",
+    "audit",
+    "chrome",
+    "firefox"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
